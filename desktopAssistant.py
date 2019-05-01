@@ -3,9 +3,7 @@ import speech_recognition as sr
 import os
 import re
 import webbrowser
-import smtplib
 import requests
-from weather import Weather
 
 def talkToMe(audio):
     # speaks audio passed as argument
